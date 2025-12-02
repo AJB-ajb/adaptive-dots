@@ -1,5 +1,9 @@
 # adaptive-dots
 
+[![Build Typst Document](https://github.com/AJB-ajb/adaptive-dots/actions/workflows/build.yml/badge.svg)](https://github.com/AJB-ajb/adaptive-dots/actions/workflows/build.yml)
+[![GitHub](https://img.shields.io/badge/GitHub-repo-blue)](https://github.com/AJB-ajb/adaptive-dots)
+[![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
+
 Automatically adapt ellipsis dots (`…`, `dots`, `...`) to centered or baseline variants based on surrounding operators, similar to LaTeX's `amsmath` `\dots` behavior.
 
 ## Usage
