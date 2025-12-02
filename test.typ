@@ -1,6 +1,6 @@
 // Test document for adaptive-dots package
 
-#import "@local/adaptive-dots:0.1.0": adaptive-dots, ldots, cdots
+#import "src/lib.typ": adaptive-dots, ldots, cdots
 
 #set page(width: 16cm, height: auto, margin: 1cm)
 #set text(font: "New Computer Modern")
@@ -11,10 +11,10 @@
 
 Notice how all dots appear at baseline level:
 
-- List with commas: $a_1, a_2, ..., a_n$ ✓ (should be baseline)
-- Sum with plus: $1 + 2 + ... + n$ ✗ (should be centered)
-- Product with dot: $1 dot.op 2 dot.op ... dot.op n$ ✗ (should be centered)
-- Product with cdot: $1 ⋅ 2 ⋅ ... ⋅ n$ ✗ (should be centered)
+- List with commas: $a_1, a_2, ..., a_n$ (should be baseline)
+- Sum with plus: $1 + 2 + ... + n$ (should be centered)
+- Product with dot: $1 dot.op 2 dot.op ... dot.op n$ (should be centered)
+- Product with cdot: $1 ⋅ 2 ⋅ ... ⋅ n$ (should be centered)
 
 #line(length: 100%)
 
